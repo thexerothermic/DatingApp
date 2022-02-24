@@ -11,6 +11,7 @@ import { AccountService } from '../_services/account.service';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent implements OnInit {
+  
   model: any = {}
   constructor(public accountService: AccountService, private router: Router, private toastr: ToastrService) { }
 
